@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
     private GoogleApiClient mGoogleApiClient;
     private TextView resultview;
+    private float accx[];
     private String resultstr;
 
     @Override
